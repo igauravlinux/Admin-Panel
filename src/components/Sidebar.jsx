@@ -31,7 +31,7 @@ const Sidebar = () => {
         <div className='flex flex-col gap-6'>
             {
             data.map((item,index) =>(
-                <NavLink to={item.path} key={index} className={({isActive}) => (isActive ? "bg-purple-500 text-white" : "text-gray-500")}>
+                <NavLink to={item.path} key={index} className={({isActive}) => `flex items-center gap-3 ${isActive ? "bg-purple-500 text-white rounded px-2 py-2" : "text-gray-500"}` }>
                     
                     {item.icon}
                     {item.menu}

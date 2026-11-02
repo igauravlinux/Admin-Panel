@@ -1,12 +1,16 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import { Outlet } from 'react-router-dom'
+import Navbar from './Navbar'
 
 const Layout = () => {
   return (
     <div className='flex'>
         <Sidebar/>
-        <Outlet />
+        <main className='flex-1 min-w-0 flex flex-col'>
+          <Navbar />
+          <Outlet />
+        </main>
     </div>
   )
 }
