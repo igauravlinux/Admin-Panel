@@ -2,7 +2,9 @@ import React from 'react'
 
 const StatCard = () => {
   return (
-    <div>StatCard</div>
+    <div>
+      
+    </div>
   )
 }
 
