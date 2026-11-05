@@ -11,7 +11,7 @@ const Sidebar = () => {
 
 
   return (
-    <div className='flex flex-col justify-between w-[250px] bg-[#15172B] h-screen px-5 py-5 text-gray-300'>
+    <div className='fixed left-0 top-0 flex flex-col justify-between w-[250px] bg-[#15172B] h-screen px-5 py-5 text-gray-300'>
 
         {/* logo and brand name */}
 
